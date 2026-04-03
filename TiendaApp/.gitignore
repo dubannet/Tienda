@@ -1,0 +1,30 @@
+# --- Configuración Personal (CRÍTICO) ---
+.env
+.env.local
+
+# --- Java y Maven ---
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# --- IDEs (Visual Studio Code / IntelliJ / Eclipse) ---
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+bin/
+
+# --- Sistema Operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Logs y Temporales ---
+*.log
+temp/
+tmp/
